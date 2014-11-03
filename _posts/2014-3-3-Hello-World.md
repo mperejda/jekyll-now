@@ -1,9 +1,9 @@
 ---
 layout: post
-title: This is a good start
+title: This is a good start.
 ---
 
-I'v been diving deep into ruby lately and I found a few things that are elementary and useful.
+I've been diving deep into ruby lately and I found a few things that are elementary and useful.
 
 <h3>Algorithms and Iteration:</h3>
   Splitting things into well defined methods will make you a happy engineer. Smaller, robust methods that only do one thing rarely break your code or application. Strong building blocks help you build bigger and better things that endure.
