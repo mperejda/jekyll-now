@@ -1,3 +1,8 @@
+---
+layout: post
+title: You're up and running!
+---
+
 <h2>This is a good start.</h2>
 
 I'v been diving deep into ruby lately and I found a few things that are elementary and useful.
