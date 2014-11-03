@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am an doer and a maker. I've got hustle and the spirit to change the game. I've started companies, raised money for charities and sold out concerts, hitchhiked through Europe, and slept under the stars in the White Mountains of NH.
 
-### More Information
+I am passionate about my work and enjoying life. I love alpine skiing, running, rock climbing, and hiking. My goal is to create things that matter.
 
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+###[Contact me](mailto:matt.perejda@gmail.com)
