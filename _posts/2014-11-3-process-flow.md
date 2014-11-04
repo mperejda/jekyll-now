@@ -9,7 +9,7 @@ I'm starting to understand the fundamental building blocks that make up simple p
 
 Once you know what tools you will need, time to start work. The only way to get better at hammering nails is to hammer nails.
 
-The skills craftsman has many tools and must master them all to become competent. I argue the amateur developer has the same challenge as the apprentices learning a craft such as blacksmithing.
+The skills craftsman has many tools and must master them all to become competent. I argue the amateur developer has the same challenge as the apprentice learning blacksmithing.
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HGz2BVtvS5I/0.jpg)](http://www.youtube.com/watch?v=HGz2BVtvS5I)
 
@@ -26,11 +26,14 @@ Is the value proposition clear yet?
 
 [Pry](prryrepl.org) and [debugger](https://github.com/cldwalker/debugger) are my go to combo for ruby. [App Academy](https://github.com/appacademy/prep-work/blob/master/mini-curriculum/README.md) has an excellent tutorial to get you started or you can jump to [Josh Cheek's](https://vimeo.com/26391171) overview of pry and it's functionality.
 
+---
+
 **Important For Loading Scripts w/ Pry**
 
 Scenario: `require './method.rb'` in pry. Test a method. Method fails test.
 
 When you edit your method.rb file and update in pry w/ `load './method.rb' ` the text shown by the debugger will NOT reflect your changes but WILL run the new code and pry will work accordingly (bug as of 11/2014). You'll need to reset pry and `require './method'` again if you want to get around this.
 
+---
 
 It takes time to learn these tools and you will make mistakes. Once you start to master them, they will save you an uncountable amount of time and shorten your development cycle. You can only move forward as fast as you can debug.
