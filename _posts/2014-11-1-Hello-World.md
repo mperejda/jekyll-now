@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is a good start.
+title: This is a Good Start.
 ---
 
 I've been diving deep into ruby lately and I found a few things that are elementary and useful.
