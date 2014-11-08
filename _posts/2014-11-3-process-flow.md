@@ -5,9 +5,7 @@ title: The Critical Path and Debugging
 
 Becoming a master is challenging.
 
-I'm starting to understand the fundamental building blocks that make up simple programs, web apps, and anything else programmable.
-
-Once you know what tools you will need, time to start work. The only way to get better at hammering nails is to hammer nails.
+Once you know what tools you will need, time to start work. The only way to get better at your craft is through deliberate practice.
 
 The skills craftsman has many tools and must master them all to become competent. I argue the amateur developer has the same challenge as the apprentice learning blacksmithing.
 
