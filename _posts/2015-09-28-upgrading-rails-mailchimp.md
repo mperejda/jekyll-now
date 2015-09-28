@@ -12,7 +12,7 @@ Getting Started
 
 Gibbon & Mailchimp provide you with list managment tools and a simple CMS for crafting your message. While Happy Seed provided the tools to spin it up on a live server.
 
-If you are new to Mailchimp/Gibbon/Rails, check out <a href="http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/" target="_blank">this article</a> for an overview.
+If you are new to Mailchimp/Gibbon/Rails, check out [this article](http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/){:target="_blank"} for an overview.
 
 Learn more about Seed <a href="http://seed.happyfuncorp.com/" target="_blank">here.</a>
 
@@ -33,7 +33,7 @@ The application will run bundle automatically as prompt you to install a handful
 
 Happy Seed uses <a href "https://github.com/bkeepers/dotenv" target="_blank">dotenv</a> to mangage environment variables by default. Once your app is generated, add your MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
 
-```
+```	
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 S3_BUCKET_NAME=
