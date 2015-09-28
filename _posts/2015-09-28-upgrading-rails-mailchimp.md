@@ -31,9 +31,9 @@ happy_seed rails APP-NAME
 
 The application will run bundle automatically as prompt you to install a handful of generators. 'Splash' is necessary.
 
-Happy Seed uses <a href "https://github.com/bkeepers/dotenv" target="_blank">dotenv</a> to mangage environment variables by default. Once your app is generated, add you MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
+Happy Seed uses <a href "https://github.com/bkeepers/dotenv" target="_blank">dotenv</a> to mangage environment variables by default. Once your app is generated, add your MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
 
-''' yaml
+```
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 S3_BUCKET_NAME=
@@ -53,7 +53,7 @@ Mailchimp and Gibbon were recently updated and you'll need to make a few change 
 
 In app/controllers/splash_controller.rb replace:
 
-```
+``` ruby
 gb = Gibbon::API.new
 
 gb.lists.subscribe({
@@ -62,9 +62,10 @@ gb.lists.subscribe({
 	:double_optin => true
 })
 ```
+
 with:
 
-```
+``` ruby
 gb = Gibbon::Request.new(api_key: ENV['MAILCHIMP_API_KEY'])
 
 gb.lists(ENV['MAILCHIMP_SPLASH_SIGNUP_LIST_ID']).members.create(
