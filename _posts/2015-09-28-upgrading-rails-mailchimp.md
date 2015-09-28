@@ -3,9 +3,6 @@ layout: post
 title: Lightning Fast Mailing List and Splash Page
 ---
 
-Hey will this fix it
-
-
 Why we need this
 -------------------------
 Mailing lists enable start ups to reach their audience and help users find out about useful products. This article will help you build the first piece of your marketing machine with lightning speed.
@@ -26,6 +23,7 @@ The steps for setting up Mailchimp will remain unchanged. You'll need a Mailchhi
 Planting Seeds
 -------------------------
 Seed is intuitive an powerful. To create a new app:
+
 ```
 happy_seed rails APP-NAME
 ```
@@ -34,13 +32,7 @@ The application will run bundle automatically as prompt you to install a handful
 
 Happy Seed uses [dotenv](https://github.com/bkeepers/dotenv) to mangage environment variables by default. Once your app is generated, add your MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
 
-```	
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-S3_BUCKET_NAME=
-HTTP_AUTH_USERNAME=
-HTTP_AUTH_PASSWORD=
-GOOGLE_ANALYTICS_SITE_ID=
+```
 MAILCHIMP_API_KEY=481241:7:8bf5441754d39b65g3:1232.vt22
 MAILCHIMP_SPLASH_SIGNUP_LIST_ID=07c087a8ab
 ```
