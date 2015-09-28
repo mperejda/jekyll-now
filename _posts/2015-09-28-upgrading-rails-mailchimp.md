@@ -3,6 +3,9 @@ layout: post
 title: Lightning Fast Mailing List and Splash Page
 ---
 
+Hey will this fix it
+
+
 Why we need this
 -------------------------
 Mailing lists enable start ups to reach their audience and help users find out about useful products. This article will help you build the first piece of your marketing machine with lightning speed.
