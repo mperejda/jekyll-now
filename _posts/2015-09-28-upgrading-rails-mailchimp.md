@@ -12,15 +12,13 @@ Getting Started
 
 Gibbon & Mailchimp provide you with list managment tools and a simple CMS for crafting your message. While Happy Seed provided the tools to spin it up on a live server.
 
-If you are new to Mailchimp/Gibbon/Rails, check out [this article](http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/){:target="_blank"} for an overview.
-
-Learn more about Seed <a href="http://seed.happyfuncorp.com/" target="_blank">here.</a>
+If you are new to Mailchimp/Gibbon/Rails, check out [this article](http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/) for an overview.
 
 ![mt path](http://earlyblogger.com/wp-content/uploads/2015/03/mailchimp.jpg)
 
 Mailchimp Setup
 -------------------------
-The steps for setting up Mailchimp will remain unchanged. You'll need a Mailchhimp API key, an email list, and the corresponding list id. See <a href="http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/" target="_blank"> Part One</a> for reference.
+The steps for setting up Mailchimp will remain unchanged. You'll need a Mailchhimp API key, an email list, and the corresponding list id. See [Part One](http://cheshireoctopus.github.io/blog/2014/01/23/mailchimp-plus-gibbon-plus-rails-create-a-basic-sign-up-form/) for reference.
 
 Planting Seeds
 -------------------------
@@ -31,7 +29,7 @@ happy_seed rails APP-NAME
 
 The application will run bundle automatically as prompt you to install a handful of generators. 'Splash' is necessary.
 
-Happy Seed uses <a href "https://github.com/bkeepers/dotenv" target="_blank">dotenv</a> to mangage environment variables by default. Once your app is generated, add your MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
+Happy Seed uses [dotenv](https://github.com/bkeepers/dotenv) to mangage environment variables by default. Once your app is generated, add your MAILCHIMP_API_KEY and and MAILCHIMP_SPLASH_LIST_ID to the .env file.
 
 ```	
 AWS_ACCESS_KEY_ID=
@@ -80,7 +78,7 @@ We no longer submit :double_optin => true. Instead, the status: "pending" indica
 
 While the gibbon gem documentation used status: "subscribed", this will automatically sign users up. Which option you choose will depend on your use cases.
 
-This is intended as a basic introduction to what you can do with <a href="http://kb.mailchimp.com/api">Mailchimp</a>+ <a href="https://github.com/amro/gibbon">Gibbon</a> + <a href="seed.happyfuncorp.com">Seed</a>. Check out the linked documentation to explore the full functionality of these technologies.
+This is intended as a basic introduction to what you can do with [Mailchimp](http://kb.mailchimp.com/api)+ [Gibbon](https://github.com/amro/gibbon) + [Seed](seed.happyfuncorp.com). Check out the linked documentation to explore the full functionality of these technologies.
 
 
 
