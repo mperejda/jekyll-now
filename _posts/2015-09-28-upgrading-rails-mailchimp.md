@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mailchimp + Gibbon + Seed: A Match Made in Heaven
+title: Lightning Fast Mailing List and Splash Page
 ---
 
 Why we need this
@@ -78,7 +78,7 @@ We no longer submit :double_optin => true. Instead, the status: "pending" indica
 
 While the gibbon gem documentation used status: "subscribed", this will automatically sign users up. Which option you choose will depend on your use cases.
 
-This is intended as a basic introduction to what you can do with [Mailchimp](http://kb.mailchimp.com/api)+ [Gibbon](https://github.com/amro/gibbon) + [Seed](seed.happyfuncorp.com). Check out the linked documentation to explore the full functionality of these technologies.
+This is intended as a basic introduction to what you can do with [Mailchimp](http://kb.mailchimp.com/api) + [Gibbon](https://github.com/amro/gibbon) + [Seed](seed.happyfuncorp.com). Check out the linked documentation to explore the full functionality of these technologies.
 
 
 
