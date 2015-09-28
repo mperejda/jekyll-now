@@ -3,6 +3,9 @@ layout: post
 title: Mailchimp + Gibbon + Seed: A Match Made in Heaven
 ---
 
+Hey will this fix it
+
+
 Why we need this
 -------------------------
 Mailing lists enable start ups to reach their audience and help users find out about useful products. This article will help you build the first piece of your marketing machine with lightning speed.
