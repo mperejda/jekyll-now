@@ -7,7 +7,7 @@ Becoming a master is challenging.
 
 Once you know what tools you will need, time to start work. The only way to get better at your craft is through deliberate practice.
 
-The skills craftsman has many tools and must master them all to become competent. I argue the amateur developer has the same challenge as the apprentice learning blacksmithing.
+The skilled craftsman has many tools and must master them all to become competent. I argue the amateur developer has the same challenge as the apprentice learning blacksmithing.
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HGz2BVtvS5I/0.jpg)](http://www.youtube.com/watch?v=HGz2BVtvS5I)
 
